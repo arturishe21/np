@@ -1,0 +1,25 @@
+{
+    "name": "vis/novaya-pochta",
+    "description": "Api NP city->department",
+    "authors": [
+        {
+            "name": "vis",
+            "email": "artur@vis-design.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers",
+            "src/models"
+        ],
+        "psr-0": {
+            "Vis\\NovayaPochta\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
