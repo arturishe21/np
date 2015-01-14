@@ -1,0 +1,4 @@
+<?php
+array(
+    "test"=>"test"
+);
